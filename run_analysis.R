@@ -1,7 +1,8 @@
 # 
-#
-# check if datafile exist
+#  run_analysis.R
 
+# check if datafile exist
+if (!file.exists("UCI HAR Dataset.zip")) stop("Data file does not exist")
 
 # Read generic data
 cat("Reading generic data...\n")
