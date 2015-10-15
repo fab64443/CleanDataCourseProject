@@ -1,8 +1,6 @@
-Getting and Cleaning Data Codebook
-==================================
+# Getting and Cleaning Data Codebook
 
-Original dataset features
--------------------------
+## Original dataset features
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
@@ -16,8 +14,7 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 
-Tidy Dataset
-------------
+## Tidy Dataset
 
 The tidy_dataset file contains 68 variables.
 
