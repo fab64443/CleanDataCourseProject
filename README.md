@@ -1,4 +1,6 @@
-# CleanDataCourseProject
+# run_analysis.R script readme
+
+**Here is a explanation of the analysis done by the R script run_analysis.R**
 
 ## Checking if data exists
 The run_anylisys.R script first checks if the data file "UCI HAR Dataset.zip" exists in the current directory. If not, the script stops.
@@ -52,7 +54,7 @@ Then the script clean the memory off uneeded dataframe.
 ## Merging train and test data
 Finally the script concatenate (rbind) the two dataframe in one.
 
-## Adding activity_name
+## Adding activity name
 Activity names are added as a new variable from the activity_label dataframe. 
 
 ## Creating the tidy dataset
